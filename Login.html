@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Login Escolar</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <script src="acesso.js"></script>
+    <style>
+    body{
+        background-color:whitesmoke;
+        font-size: 16px;
+        font-family: Arial;
+        color:black;
+        text-align: center;    
+    }
+     h1{
+         font-size: 26px;
+         padding: 20px;
+     }
+    
+     p a:hover{
+            text-decoration:underline;
+            color:blue;
+      }
+    input{
+        text-align: center;
+        font-size: 18px;
+     }
+     
+     </style>
+</head>
+<body>
+    <Div>
+        <img src="imgs/logo.png" width=160 height=130 img align="left" padding: 30px; >
+        <h1>Escola de Inicialização Musical</h1>
+        <H2>Ancilas do Menino Jesus</H2>
+     </Div>
+     
+    <fieldset>
+        <legend>Acesso Restrito</legend>
+    <form nome="form">
+
+    Nome: <input type="text" name="nome" autocomplete="off"><br><br>
+    Senha: <input type="password" name="senha" autocomplete="off"><br><br>
+
+    <input type="button" name="botão" value="Login" onClick="acesso(this.form)">
+
+    <input type="reset" name="limpar" value="Limpar"><br><br>
+   <a href="Esqueceu senha.html">Esqueceu a Senha</a>
+    </form>
+    </fieldset>
+
+</body>
+</html>
